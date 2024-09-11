@@ -6,7 +6,6 @@ public:
     double maxavg = -9999;
     double sum =0;
     if(nums.size()==1 && k == 1){
-        cout<<"HERE"<<endl;
         return nums[0];
     }
     for(int right = 0; right <= nums.size();right ++){
